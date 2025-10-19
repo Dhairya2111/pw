@@ -1,0 +1,79 @@
+
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dhairya's New Website</title>
+        <style>
+            body {
+                margin: 0;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: linear-gradient(135deg, #0f0f0f, #1a1a1a, #000000);
+                font-family: 'Arial Black', sans-serif;
+                overflow: hidden;
+            }
+            h1 {
+                font-size: 3em;
+                font-weight: bold;
+                text-transform: uppercase;
+                letter-spacing: 5px;
+                color: #fff;
+                text-shadow: 
+                    0 0 10px #ff0055,
+                    0 0 20px #ff0055,
+                    0 0 40px #ff0055,
+                    0 0 80px #ff0055;
+                animation: glow 2s infinite alternate, move 10s linear infinite;
+                position: relative;
+            }
+
+            @keyframes glow {
+                from { text-shadow: 0 0 10px #ff0055, 0 0 20px #ff0055, 0 0 40px #ff0055; }
+                to   { text-shadow: 0 0 20px #00ffee, 0 0 40px #00ffee, 0 0 80px #00ffee; }
+            }
+            @keyframes move {
+                0%   { transform: translateX(-100vw); }
+                50%  { transform: translateX(0); }
+                100% { transform: translateX(100vw); }
+            }
+
+            h2 {
+                font-size: 2em;
+                font-weight: bold;
+                text-transform: uppercase;
+                letter-spacing: 10px;
+                color: #fff;
+                text-shadow: 
+                    0 0 10px #ff0055,
+                    0 0 20px #ff0055,
+                    0 0 40px #ff0055,
+                    0 0 80px #ff0055;
+                animation: glow 2s infinite alternate, move 6s linear infinite reverse;
+                position: absolute;
+            }
+
+            @keyframes glow {
+                from { text-shadow: 0 0 10px #ff0055, 0 0 20px #ff0055, 0 0 40px #ff0055; }
+                to   { text-shadow: 0 0 20px #00ffee, 0 0 40px #00ffee, 0 0 80px #00ffee; }
+            }
+            @keyframes move {
+                0%   { transform: translateX(-100vw); }
+                50%  { transform: translateX(0); }
+                100% { transform: translateX(100vw); }
+            }
+        </style>
+    </head>
+    <body>
+<meta http-equiv="refresh" content="8; url=https://dhairya2111.github.io/dhairya2/">
+        <h1>⚡ Powered by Dhairya Bhardwaj ⚡</h1>
+         <h2>⚡ Wait 10 Seconds to redirect⚡</h2>
+
+
+    </body>
+    </html>
+    
